@@ -243,7 +243,7 @@ header{
     border: .01em solid var(--neutral-dark-3);
     border-radius: .5em;
     font-size: 1em;
-    font-weight: bold;
+    font-weight: 600;
     outline: none;
     width: 250px;
     background-color: var(--neutral-light-2);
