@@ -279,11 +279,14 @@ header{
     .content .cart{
         border-top-right-radius: 0;
         border-bottom-left-radius: 15px;
+        box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
     }
     .content .form{
         /* margin-top: -212px; */
+        padding-bottom: 5.39em;
         background-color: var(--neutral-light-1);
-        border-top-right-radius: 15px;
+        border-top-right-radius: 15px;border-bottom-right-radius: 15px;
+        box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
     }
 
     .adress .country select{
