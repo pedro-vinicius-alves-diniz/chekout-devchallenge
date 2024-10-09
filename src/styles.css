@@ -63,6 +63,7 @@ header{
     max-width: 90%;
     margin: 0 auto;
     padding-bottom: 1em;
+    margin-top: -140px;
 }
 
 /* CART */
@@ -75,7 +76,7 @@ header{
     padding: 1.5em;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-    margin-top: -150px;
+    /* margin-top: -150px; */
 }
 
 .cart-items{
@@ -272,7 +273,7 @@ header{
 @media(min-width: 1024px){
     .content{
         display: flex;
-        align-items: center;
+        align-items: start;
         justify-content: center;
     }
     .content .cart{
@@ -280,7 +281,7 @@ header{
         border-bottom-left-radius: 15px;
     }
     .content .form{
-        margin-top: -212px;
+        /* margin-top: -212px; */
         background-color: var(--neutral-light-1);
         border-top-right-radius: 15px;
     }
