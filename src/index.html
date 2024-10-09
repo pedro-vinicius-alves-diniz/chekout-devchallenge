@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+
+    <script src="scripts.js"></script>
+    <title>Checkout - Dev Challenge</title>
+</head>
+
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Checkout</h1>
+            <a href="#">3 ITEMS</a>
+        </div>
+    </header>
+
+    <main>
+        <div class="content">
+            <section class="cart">
+                <div class="cart-items">
+                    <div class="item">
+                        <div class="img-info">
+                            <div class="img">
+                                <img src="img/Gold.png" alt="">
+                            </div>
+                            <div class="item-info">
+                                <div class="name-description">
+                                    <p class="name">Iphone 12 Pro</p>
+                                    <p class="description">Golden</p>
+                                </div>
+                                <p class="description qtd">x 1</p>
+                            </div>
+                        </div>
+                        <div class="price-close">
+                            <p class="price">$999.00</p>
+                            <a href="#" class="close">
+                                <img src="img/close-icon.svg" alt="" width="20">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="img-info">
+                            <div class="img blue">
+                                <img src="img/Blue.png" alt="" width="25">
+                            </div>
+                            <div class="item-info">
+                                <div class="name-description">
+                                    <p class="name">Apple Watch</p>
+                                    <p class="description">Blue</p>
+                                </div>
+                                <p class="description qtd">x 1</p>
+                            </div>
+                        </div>
+                        <div class="price-close">
+                            <p class="price">$399.00</p>
+                            <a href="#" class="close">
+                                <img src="img/close-icon.svg" alt="" width="20">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="img-info">
+                            <div class="img">
+                                <img src="img/iMac=Front 1.png" width="70" alt="">
+                            </div>
+                            <div class="item-info">
+                                <div class="name-description">
+                                    <p class="name">iMac</p>
+                                    <p class="description">Green</p>
+                                </div>
+                                <p class="description qtd">x 1</p>
+                            </div>
+                        </div>
+                        <div class="price-close">
+                            <p class="price">$1199.00</p>
+                            <a href="#" class="close">
+                                <img src="img/close-icon.svg" alt="" width="20">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="cart-infos">
+                    <div class="input-btn-cupom">
+                        <input type="text" placeholder="Enter coupon code">
+                        <a href="#">Apply Coupon</a>
+                    </div>
+                    <div class="values">
+                        <div class="subtotal">
+                            <p>Sub total</p>
+                            <p>$2597.00</p>
+                        </div>
+                        <div class="tax">
+                            <p>Tax</p>
+                            <p>$623.28</p>
+                        </div>
+                        <div class="total">
+                            <p>Total</p>
+                            <p>$3220.28</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="form">
+                <h1>Contact Information</h1>
+                <div class="name">
+                    <label for="iname">First & Last name</label>
+                    <input type="text" id="iname" name="name" placeholder="Enter first & last name">
+                </div>
+                <div class="email">
+                    <label for="iemail">Email Address</label>
+                    <input type="email" name="email" id="iemail" placeholder="Enter email address">
+                </div>
+                <div class="adress">
+                    <div class="country">
+                        <label for="icountry">Country</label>
+                        <select name="country" id="country">
+                            <option value="filand" >Filand</option>
+                            <option value="brazil" >Brazil</option>
+                            <option value="italy" >Italy</option>
+                            <option value="argentina" >Argentina</option>
+                            <option value="chile" >Chile</option>
+                            <option value="japan" >Japan</option>
+                            <option value="germany" >Germany</option>
+                            <option value="sweden" >Sweden</option>
+                        </select>
+                    </div>
+                    <div class="postal-code">
+                        <label for="icode">Postal Code</label>
+                        <input type="text" name="code" id="icode" placeholder="00270">
+                    </div>
+                </div>
+                <a href="#">Continue</a>
+            </section>
+        </div>
+    </main>
+</body>
+
+</html>
